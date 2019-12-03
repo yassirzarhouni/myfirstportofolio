@@ -1,0 +1,257 @@
+body{
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex table-column;
+    
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.7rem;
+    background: #ffc300;
+    color: black;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 9px;
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+}
+.img{
+    padding-top: 20vh;
+}
+img{
+
+    height:30vh;
+    width: 30vh;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+svg{
+    width: 100vw;
+    fill: rgba(0, 0, 0, 0.9);
+}
+.frontend{
+    font-size: 1.9rem;
+    margin: 8%;
+    position: relative;
+    background: #dbddc7;
+    color: #5e5e5e;
+    margin-bottom: 200px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 4px;
+}
+.frontend::after{
+    content: '';
+    background: repeating-linear-gradient(
+                    45deg,
+                    black,
+                    black 10px,
+                    #ffc300 10px,
+                    #ffc300 20px
+                    );
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 4px;
+    opacity: .5;
+}
+.frontend .title-mini{
+    position: relative;
+    margin:  20px;
+}
+.frontend .title-mini::after{
+    content: "";
+    border: none !important;
+    position: absolute;
+    color: #000;
+    bottom: -5px;
+    border-radius: 5px;
+    left: 44%;
+    width: 10%;
+    height: 10%;
+    background-color: #ffc300;
+}
+
+
+.features::first-letter{
+    font-size: 1.6rem;
+    color: #ffc300;
+}
+.about-me{
+    margin: 8%;
+}
+.title{
+    margin-left: 8%;
+    padding: 5px;
+    border-left: #ffc300 solid 4px;
+    margin-bottom: 4%;
+}
+.info{
+    position: relative;
+    background: #dbddc7;
+    color: #5e5e5e;
+    padding: 5px;
+    border-radius: 4px;
+    
+}
+.sousinfo{
+    text-align: center;
+}
+
+.about-me .info .parent{
+    display: inline-flex;
+    width: 100%;
+}
+.parent .doc1{
+    width: 50%;
+}
+.parent .doc2{
+    width: 50%;
+}
+.intro{
+    color: #ffc300;
+    font-size: 1.3rem;
+}
+.info::after{
+    position: absolute;
+    content: '';
+    top: 20px;
+    right: -10px;
+    border: #ffc300 solid 4px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 4px;
+}
+.bold{
+    color: #ffc300;
+    width: 60%;
+    margin-left: 20px;
+}
+.doc{
+    width: 60%px;
+    
+}
+
+
+.ddd{
+    position: absolute;
+
+}
+
+footer{
+    position: relative;
+    background: #ffc300;
+    top: 0;
+    
+}
+
+.title-footer{
+    font-size: 3rem;
+    border-left: black solid 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 60px;
+}
+.bb{
+    color: white;
+    width: 100px;
+    
+}
+.cc{
+    color: black;
+    
+}
+
+footer .info{
+    padding-left: 40px;
+    background-color: #ffc300;
+    font-size: 2rem;
+}
+
+
+.gmail input
+{
+    height: 60px;
+    width: 70%;
+    background: transparent;
+    margin-bottom: 10px;
+    color: black;
+    border: none;
+    border-bottom: rgba(0, 0, 0, 0.3) solid 2px;
+    font-size: 1.2rem;
+}
+.gmail input:focus{
+    border-bottom: rgba(0, 0, 0, 1) solid 2px;
+}
+.gmail textarea{
+    background: transparent;
+    margin-bottom: 10px;
+    color: black;
+    border: none;
+    border-bottom: rgba(0, 0, 0, 0.3) solid 2px;
+    width: 70%;
+}
+.gmail textarea:focus{
+    border-bottom: rgba(0, 0, 0, 1) solid 2px;
+}
+.gmail button{
+    font-size: 1.8rem;
+    background: repeating-linear-gradient(
+                    45deg,
+                    black,
+                    black 1px,
+                    #ffc300 1px,
+                    #ffc300 2px
+                    );
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    margin-left: 150px;
+}
+.gmail button:hover{
+    background: repeating-linear-gradient(
+        135deg,
+        #ffc300,
+        #ffc300 1px,
+        black 1px,
+        black 2px
+        );
+}
+.copyright
+{
+    color: black;
+    margin-top: 20px;
+    bottom: 0;
+    font-size: .7rem;
+    text-align: center;
+}
+
+.gmail input::placeholder,textarea::placeholder{
+    color: whitesmoke;
+}
+footer .parent{
+    display: inline-flex;
+    width: 100%;
+}
+footer .parent .info{
+    width: 50%;
+}
+footer .parent .gmail{
+    width: 50%;
+    min-width: 500px;
+}
